@@ -469,7 +469,7 @@ public class SodiumCtx {
     }
 
     public void last(Runnable last) {
-
+        lastQ.add(last);
     }
 
     private void update() {
